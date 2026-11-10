@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -771,7 +769,7 @@
                            <p>and get the latest updates</p>
                            <div class="subscribe-form">
                               <form>
-                                 <input type="text" placeholder="Enter Your Email">
+                                 <input type="email" name="email" id="email"  autocomplete="email"  placeholder="Enter Your Email">
                                  <button type="submit"><i class="flaticon-send"></i></button>
                               </form>
                            </div>
@@ -796,35 +794,35 @@
                <div class="row">
                   <div class="col-md-12">
                      <div class="contact-form m-t">
-                        <form action="#">
+                        <form action="#" method="post">
                            <div class="row">
                               <div class="col-md-6">
                                  <p>
-                                    <input type="text" placeholder="Enter Your Name">
+                                    <input type="text" name="name" id="name"  autocomplete="name" placeholder="Enter Your Name">
                                  </p>
                               </div>
                               <div class="col-md-6">
                                  <p>
-                                    <input type="email" placeholder="Enter Your Email">
+                                    <input type="email" name="email" id="email"  autocomplete="email"  placeholder="Enter Your Email">
                                  </p>
                               </div>
                            </div>
                            <div class="row">
                               <div class="col-md-6">
                                  <p>
-                                    <input type="tel" placeholder="Enter Your Phone">
+                                    <input type="tel" name="tel" id="tel"  autocomplete="tel"  placeholder="Enter Your Phone">
                                  </p>
                               </div>
                               <div class="col-md-6">
                                  <p>
-                                    <input type="text" placeholder="Your Subject">
+                                    <input type="text" name="subject" id="subject" placeholder="Your Subject">
                                  </p>
                               </div>
                            </div>
                            <div class="row">
                               <div class="col-md-12">
                                  <p>
-                                    <textarea cols="30" rows="10" placeholder="Write Your Message"></textarea>
+                                    <textarea name="message" id="message"  cols="30" rows="10" placeholder="Write Your Message"></textarea>
                                  </p>
                               </div>
                            </div>
@@ -844,7 +842,9 @@
          <!-- /End Contact Area -->
          <!-- Start Goolge map -->
          <div class="map-area">
-            <div id="googleMap" style="width:100%;height:450px"></div>
+			<div id="googleMap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57559.09568224058!2d88.60522361647617!3d25.623402816179414!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fb529bc7fc909b%3A0xd8f861ed9baf24de!2sDinajpur!5e0!3m2!1sen!2sbd!4v1794336880712!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+			</div>
          </div>
          <!-- /End Google map -->
          <!-- Footer Area -->
@@ -928,7 +928,7 @@
                      </div>
                      <div class="col-md-6">
                         <div class="copyright-text">
-                           <p>Copyright  2019 Viso. All Rights Reserved</p>
+                           <p>Copyright  2026 Viso. All Rights Reserved</p>
                         </div>
                      </div>
                   </div>
@@ -942,10 +942,9 @@
       <!-- Js File-->
       <script src="assets/js/jquery.v3.4.1.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>
-      <script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
       <script src="assets/js/scrollIt.min.js"></script>
       <script src="assets/js/jquery.slicknav.min.js"></script>
-      <script src="assets/js/map.js"></script>
+	  <script src="assets/js/map.js"></script>
       <script src="assets/js/owl.carousel.min.js"></script>
       <script src="assets/js/isotope.pkgd.min.js"></script>
       <script src="assets/js/plugins.js"></script>
